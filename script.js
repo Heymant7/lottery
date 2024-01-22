@@ -12,6 +12,7 @@ let lotNum = Math.floor(Math.random() * 10)
    a =a+2
    a=a+5
    if(userNum < 1 || userNum > 100){
+      if(userNum >100)
       alert('enter number in the range of 1 to 100')
       resetGame()
    }
