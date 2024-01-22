@@ -37,3 +37,7 @@ let lotNum = Math.floor(Math.random() * 10)
       attempt = 1;
       document.getElementById('userNumber').value = ''
    }
+
+
+   // comment for push practice
+   
