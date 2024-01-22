@@ -9,6 +9,8 @@ let lotNum = Math.floor(Math.random() * 10)
    let num = Math.floor(userNum/lotNum);
    num = lotNum*num;
    num = userNum - num
+   a =a+2
+   a=a+5
    if(userNum < 1 || userNum > 100){
       alert('enter number in the range of 1 to 100')
       resetGame()
@@ -40,4 +42,3 @@ let lotNum = Math.floor(Math.random() * 10)
 
 
    // comment for push practice
-   
